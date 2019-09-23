@@ -1,0 +1,8 @@
+#if !defined(OPENFURNACE_USERINTERFACE_HPP)
+#define OPENFURNACE_USERINTERFACE_HPP
+
+class UserInterface {
+
+};
+
+#endif // OPENFURNACE_USERINTERFACE_HPP
