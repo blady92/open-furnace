@@ -3,7 +3,7 @@
 
 class FuelSensor {
 public:
-    virtual bool is_fuel() = 0;
+    bool is_fuel();
 };
 
 #endif // OPENFURNACE_FUELSENSOR_HPP

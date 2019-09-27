@@ -3,8 +3,8 @@
 
 class Heater {
 public:
-    virtual void set_power(int power) = 0;
-    virtual int get_power() = 0;
+    void set_power(unsigned int power);
+    unsigned int get_power();
 };
 
 #endif // OPENFURNACE_HEATER_HPP

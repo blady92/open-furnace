@@ -3,7 +3,7 @@
 
 class FlameSensor {
 public:
-    virtual bool is_flame() = 0;
+    bool is_flame();
 };
 
 #endif // OPENFURNACE_FLAMESENSOR_HPP

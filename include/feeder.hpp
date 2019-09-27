@@ -3,9 +3,9 @@
 
 class Feeder {
 public:
-    virtual void start() = 0;
-    virtual void stop() = 0;
-    virtual bool is_running() = 0;
+    void start();
+    void stop();
+    bool is_running();
 };
 
 #endif // OPENFURNACE_FEEDER_HPP
